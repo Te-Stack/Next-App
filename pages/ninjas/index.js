@@ -1,8 +1,8 @@
-export const getStaticProps = async ()=>{
+export const getStaticProps = async () =>{
     const res = await fetch('https://jsonplaceholder.typicode.com/users')
-    const data = res.json
+    const data = res.json()
     return {
-        props: {ninjas: data }
+        props: { ninjas: data }
     }
 }
 
