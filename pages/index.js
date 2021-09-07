@@ -12,7 +12,7 @@ export default function Home() {
         <meta name="keywords" content="ninjas"/>
       </Head>
       <div className={styles.title}>
-        <h1 className={styles.text}>Home </h1>
+        <h1 className={styles.text}>This is the Home Page </h1>
         <p className={styles.text}>lorems</p>
         <Link href="/ninjas">
           <a className={styles.btn}>See Ninja Listings</a>
