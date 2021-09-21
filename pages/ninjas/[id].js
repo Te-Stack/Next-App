@@ -30,9 +30,9 @@ const Details = ({ninja}) => {
     return ( 
         <div>
             <h1>{ ninja.name}</h1>
-            <h1>{ ninja.email}</h1>
-            <h1>{ ninja.website}</h1>
-            <h1>{ ninja.address.city}</h1>
+            <p>{ ninja.email}</p>
+            <p>{ ninja.website}</p>
+            <p>{ ninja.address.city}</p>
         </div>
      );
 }
